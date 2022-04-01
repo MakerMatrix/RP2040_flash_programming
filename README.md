@@ -1,6 +1,5 @@
 # RP2040_flash_programming
-A simple Arduino IDE example for programming the RP2040 onboard flash, including rudimentary wear-leveling logic.  This is explained in detail [on my blog]
-(https://www.makermatrix.com/blog/read-and-write-data-with-the-pi-pico-onboard-flash/).
+A simple Arduino IDE example for programming the RP2040 onboard flash, including rudimentary wear-leveling logic.  This is explained in detail [on my blog](https://www.makermatrix.com/blog/read-and-write-data-with-the-pi-pico-onboard-flash).
 
 
 Enable your RP2040-based board in the board manager (e.g. Pi Pico).  Plug your board into your computer, and select the detected commuincation port under Tools->Port.
