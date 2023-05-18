@@ -57,7 +57,8 @@ extern "C" {
 #define FLASH_TARGET_OFFSET (PICO_FLASH_SIZE_BYTES - FLASH_SECTOR_SIZE)
 
 int buf[FLASH_PAGE_SIZE/sizeof(int)];  // One page buffer of ints
-int *p, page, addr;
+int *p, addr;
+unsigned int page; // prevent comparison of unsigned and signed int
 int first_empty_page = -1;
 
 void setup() {
